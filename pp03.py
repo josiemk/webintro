@@ -8,7 +8,7 @@ import pandas as pd
 app = Flask(__name__)
 
 # tell code where to find protein information
-protein_table_filename = 'protein_table.tsv'
+protein_table_filename = 'protein_table.tsv.txt'
 
 # define the action for the top level route
 @app.route('/')
