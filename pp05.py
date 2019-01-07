@@ -15,7 +15,7 @@ app = Flask(__name__)
 app.config['SECRET_KEY'] = 'change this unsecure key'
 
 # tell code where to find protein information
-protein_table_filename = 'protein_table.tsv'
+protein_table_filename = 'protein_table.tsv.txt'
 
 # create a class to define the form
 class QueryForm(FlaskForm):
